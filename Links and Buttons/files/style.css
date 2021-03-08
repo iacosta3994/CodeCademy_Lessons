@@ -1,0 +1,55 @@
+a {
+    color: #2176ff;
+    text-decoration: underline;
+    cursor: pointer;
+  
+  }
+  
+  a:hover {
+    text-decoration:none;
+    transition: color .1s ease-in, background-color .1s ease-in;
+  
+  }
+  
+  a:active {
+    background-color: darkgray;
+    transition: font-size .1s;
+  }
+  
+  .activity{
+    border: 1px solid #2176ff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #5495ff;
+    transition: color .1s ease-in, background-color .1s ease-in;
+  }
+  
+  .btn {
+      background-color: #2176FF;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    text-decoration:none;
+    transition: color .1s ease-in, background-color .1s ease-in;
+  }
+  
+  .btn:active {
+    background-color: darkgray;
+    transition: font-size .1s;
+  }
